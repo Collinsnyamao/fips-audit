@@ -10,7 +10,7 @@ router.post('/', function(req, res, next) {
   let username = req.body.username;
   let password = req.body.password;
 
-  res.send('new user is ' + username + '\n' + 'password is ' + password);
+  res.send('new username is ' + username + '\n' + 'password is ' + password);
 });
 
 module.exports = router;
